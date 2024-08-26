@@ -1,4 +1,4 @@
-## Modelo Relacional do Sistema De Endemias
+# Modelo Relacional do Sistema De Endemias
 
 ```mermaid
 erDiagram
