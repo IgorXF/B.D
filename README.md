@@ -137,13 +137,13 @@ erDiagram
     Pessoa ||--o{ Notificacao : ""
     Consulta ||--o{ Exame : ""
     Pessoa ||--o{ Consulta : ""
-    Endereco ||--o{ Pessoa : ""
-    Endereco ||--o{ Laboratorio : ""
-    Endereco ||--o{  UnidadeSaude: ""
-    ```
+    Pessoa ||--o{ Endereco : ""
+    Laboratorio ||--o{ Endereco : ""
+    UnidadeSaude ||--o{  Endereco: ""
 
     Vacinacao ||--o{ Pessoa : ""
     Vacina ||--o{ Vacinacao : ""
     
     Laboratorio ||--o{ Notificacao : ""
     Laboratorio ||--o{ Exame : ""
+```
